@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 41px;
+}
+
+/* === Start Reusable === */
+h2 {
+  font-size: 34px;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
+p, ul li {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #FFD019;
+}
+
+.btn {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #FFF;
+  color: #000;
+}
+
+.color-bar {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+/* === End Reusable === */
+
+/* === Start Header === */
+.navbar .logo {
+  height: 70px;
+}
+
+.navbar .nav-link {
+  margin: 0 10px;
+  color: #707070;
+}
+/* === End Header === */
+
+/* === Start Carousel Section === */
+.banner {
+  background-image: url("images/dooted-qube.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 7%;
+}
+
+.carousel-item {
+  background-image: url("images/product-text.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5%;
+  padding-bottom: 55px;
+}
+
+.carousel-item p {
+  padding: 20px 0;
+}
+
+.carousel-indicators li {
+    background-color: #CECECE;
+    height: 10px;
+    width: 16px;
+    border-radius: 6px;
+    border: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.carousel-indicators .active {
+  background-image: linear-gradient(to right, #FF9C35, #FFD019);
+  width: 40px;
+}
+/* === End Carousel Section === */
+
+/* === Start Product Section === */
+.cat-title a {
+  color: #FF9D00;
+  font-weight: 500;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 5px 20px #6d6d6d1f;
+  border-radius: 10px;
+}
+
+.card img {
+  padding-top: 30px;
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.smartphone, .laptop {
+  padding-top: 50px;
+}
+/* === End Product Section === */
+
+/* === Start Category Section === */
+.category {
+  padding-top: 100px;
+}
+
+.single-cat {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 20px 5px;
+  -webkit-border-radius: 20px 5px;
+  -moz-border-radius: 20px 5px;
+  -ms-border-radius: 20px 5px;
+  -o-border-radius: 20px 5px;
+}
+
+.single-cat:hover {
+  transform: translateY(-10px);
+  transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -ms-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+.single-cat a h4{
+  color: #2c2c2c;
+  margin-top: 10px;
+  font-weight: 500;
+}
+/* === End Category Section === */
+
+/* === Start About Section === */
+.about {
+  padding: 110px 0;
+}
+
+.about img {
+  width: 150px;
+}
+
+.about h3 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.about ul li {
+  padding: 5px 0;
+}
+/* === End About Section === */
+
+/* === Start Contact Section === */
+.contact {
+  padding: 100px 0;
+  background-color: #F7EDE1;
+}
+
+.contact h3 {
+  padding-bottom: 20px;
+}
+
+.contact .fas {
+  width: 50px;
+  height: 50px;
+}
+/* === End Contact Section === */
+
+/* === Start Footer Section === */
+.footer {
+  background-color: #F7EDE1;
+  padding-top: 10px;
+}
+
+.footer img {
+  width: 115px;
+}
+
+.footer p, .footer a {
+  font-size: 15px;
+  color: #707070;
+}
+
+.footer a:hover {
+  color: #FF9D00;
+}
+
+.social-media li a {
+  display: block;
+  text-align: center;
+  width: 27px;
+  height: 27px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.social-media .fab{
+  color: #FFF;
+  width: 15px;
+  height: 15px;
+}
+
+.social-media a:hover {
+  background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+/* === End Footer Section === */
+
+/* === Start Media Queries === */
+@media screen and (max-width: 480px) {
+  .contact {
+    padding: 50px 0;
+  }
+  .about {
+    padding-bottom: 50px;
+  }
+}
+/* === End Media Queries === */
